@@ -32,6 +32,12 @@ describe("calculate", () => {
     })
 })
 
+describe("calculate", () => {
+    it("returns if a number is prime or not", () => {
+        expect(calculate('abcde')).toEqual(15)
+    })
+})
+
 // Input Validation
 describe("Input validation", () => {
     it("returns true if input is in given conditions", () => {
