@@ -103,7 +103,7 @@ describe("Input validation", () => {
 
 describe("Input validation", () => {
     it("returns true if input is in given conditions", () => {
-        expect(mockCalculationInput('àçÆ')).toEqual(false)
+        expect(mockCalculationInput('returns true if input is in given conditions')).toEqual(false)
     })
 })
 

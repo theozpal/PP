@@ -26,7 +26,7 @@ app.get('', (req, res) => {
         formType: "text",
         formLength: "10",
         placeHolder: 'e.g. abc',
-        formPattern: "[A-Za-z]{1,10}",
+        formPattern: "[A-Za-z\\s]{1,10}",
         formTitle: "Letters only [A-Za-z]",
         buttonText: "Calculate",
         textareaID: 'calculation',

@@ -29,7 +29,8 @@ Controller.prototype = {
             this.model.inputLetters = this.view.getCalculationInput().value
             var result = this.model.calculate()
             var primeCheck = this.model.isPrime(result);
-            this.view.getCalculationResult().innerHTML = this.view.getCalculationInput().value.concat(" = ", result, primeCheck ? " is a PRIME number" : " is NOT a PRIME number");
+            this.view.getCalculationResult().innerHTML = this.view.getCalculationInput().value.concat(" = ", 
+            result, primeCheck ? " is a PRIME number" : " is NOT a PRIME number");
             this.view.getCalculationForm().reset();
         }
     }
