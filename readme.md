@@ -50,7 +50,3 @@ You need to run /web-server/src/app.js to run the program on port 3000(could be 
 
 Then head to your development port.
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
