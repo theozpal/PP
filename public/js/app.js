@@ -8,7 +8,7 @@ calculationForm.addEventListener('submit', (event) => {
 
 })
 // Checks if the input is valid and calls other functions on it. 
-// Finally sets the textarea to output.
+// Finally sets output to textarea.
 function handleForm(event) {
     event.preventDefault()
     if (!calculationInput.checkValidity()) {
@@ -17,7 +17,7 @@ function handleForm(event) {
         var inputLetters = calculationInput.value.toLowerCase()
         var result = calculate(inputLetters)
         var primeCheck = isPrime(result)
-        calculationResult.innerHTML = inputLetters.concat(" = ", result, primeCheck ? " is a PRIME number" : " is NOT a PRIME number");
+        calculationResult.innerHTML = calculationInput.value.concat(" = ", result, primeCheck ? " is a PRIME number" : " is NOT a PRIME number");
         var form = document.getElementById("user-form");
         form.reset();
     }
@@ -42,5 +42,3 @@ function isPrime(num) {
     }
     return true;
 }
-
-

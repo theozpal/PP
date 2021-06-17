@@ -46,11 +46,9 @@ Jest - Needed to run test file with Jest. See the [installation document](https:
 
 ## Usage
 
-You need to run /web-server/src/app.js to run the program on port 3000.
+You need to run /web-server/src/app.js to run the program on port 3000(could be changed at src/app.js to a different port).
 
-```
-
-```
+Then head to your development port.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
