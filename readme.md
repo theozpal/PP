@@ -50,3 +50,11 @@ You need to run /web-server/src/app.js to run the program on port 3000(could be 
 
 Then head to your development port.
 
+## Test
+
+The following command runs test if you have installed npm:
+
+```
+npm test
+```
+
